@@ -5,7 +5,7 @@ import wikipedia as w
 from gtts import gTTS        #Import Google Text to Speech
 import PIL
 
-absolute_path = "audio"
+absolute_path = "audio/"
 model_path = "weights/best (1).pt"
 
 #Creamos el detector
