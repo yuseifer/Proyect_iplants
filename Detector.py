@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 w.set_lang("es")
 language = "es-es"
-absolute_path ="C:/Users/Renzo/PycharmProjects/Herramientas_programacion_python/"
+absolute_path ="audio"
 
 class detector:
   def __init__(self,model_path):
