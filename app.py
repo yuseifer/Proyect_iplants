@@ -6,7 +6,7 @@ from gtts import gTTS        #Import Google Text to Speech
 import PIL
 
 absolute_path = "C:/Users/Renzo/PycharmProjects/Herramientas_programacion_python/"
-model_path = "C:/Users/Renzo/PycharmProjects/Herramientas_programacion_python/best.pt"
+model_path = "weights/best (1).pt"
 
 #Creamos el detector
 detector = Detector.detector(model_path)
