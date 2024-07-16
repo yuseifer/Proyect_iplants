@@ -7,7 +7,7 @@ import pyttsx3
 
 engine= pyttsx3.init()
 
-model_path = "C:/Users/Renzo/PycharmProjects/Herramientas_programacion_python/best.pt"
+model_path = "weights/best (1).pt"
 #Creamos el detector
 detector = Detector.detector(model_path)
 modelo=YOLO(model_path)
