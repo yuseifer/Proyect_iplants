@@ -71,5 +71,5 @@ if st.sidebar.button('Detectar plantas'):
                 c='Rosa'
             #st.write(c)
             st.markdown(f"<h1 style='font-size: 50px; color: red;'>{c}</h1>", unsafe_allow_html=True)
-            p = absolute_path+f'{c}.wav'
-            st.audio(p, format="audio/wav")
+            p = absolute_path+f'{c}.mp3'
+            st.audio(p, format="audio/mp3")
